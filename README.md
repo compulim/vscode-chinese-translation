@@ -9,16 +9,16 @@ You can run the translator thru Command Palette.
 * Type or select "Chinese Translation: Translate Hong Kong to Simplified Chinese"
 
 This extension supports the following type of translations:
-* Translate Hong Kong to Simplified Chinese
-* Translate Simplified Chinese to Hong Kong
-* Translate Simplified Chinese to Traditional Chinese
-* Translate Simplified Chinese to Taiwan
-* Translate Simplified Chinese to Taiwan with phrases
-* Translate Traditional Chinese to Hong Kong
-* Translate Traditional Chinese to Simplified Chinese
-* Translate Traditional Chinese to Taiwan
-* Translate Taiwan to Simplified Chinese
-* Translate Taiwan to Simplified Chinese with phrases
+* Hong Kong to Simplified Chinese
+* Simplified Chinese to Hong Kong
+* Simplified Chinese to Traditional Chinese
+* Simplified Chinese to Taiwan
+* Simplified Chinese to Taiwan with phrases
+* Traditional Chinese to Hong Kong
+* Traditional Chinese to Simplified Chinese
+* Traditional Chinese to Taiwan
+* Taiwan to Simplified Chinese
+* Taiwan to Simplified Chinese with phrases
 
 ## Change log
 * 0.0.1 (2016-02-25): First public release
