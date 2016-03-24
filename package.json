@@ -16,6 +16,18 @@
   "bugs": "https://github.com/compulim/vscode-chinese-translation/issues/",
   "homepage": "https://github.com/compulim/vscode-chinese-translation/blob/master/README.md",
   "license": "MIT",
+  "keywords": [
+    "chinese",
+    "opencc",
+    "translation",
+    "traditional",
+    "simplified",
+    "taiwan",
+    "hong kong",
+    "gb2312",
+    "big5",
+    "hkscs"
+  ],
   "categories": [
     "Other"
   ],
