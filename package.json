@@ -1,97 +1,103 @@
 {
-  "name": "vscode-chinese-translation",
-  "displayName": "Chinese Translation",
-  "description": "Translates between Traditional and Simplified Chinese",
-  "version": "0.0.1",
-  "publisher": "Compulim",
-  "engines": {
-    "vscode": "^0.10.1"
-  },
-  "icon": "icon.png",
-  "galleryBanner.color": "#0D5CAB",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/compulim/vscode-chinese-translation.git"
-  },
-  "bugs": "https://github.com/compulim/vscode-chinese-translation/issues/",
-  "homepage": "https://github.com/compulim/vscode-chinese-translation/blob/master/README.md",
-  "license": "MIT",
-  "keywords": [
-    "chinese",
-    "opencc",
-    "translation",
-    "traditional",
-    "simplified",
-    "taiwan",
-    "hong kong",
-    "gb2312",
-    "big5",
-    "hkscs"
-  ],
-  "categories": [
-    "Other"
-  ],
-  "activationEvents": [
-    "onCommand:chineseTranslation.hongKongToSimplified",
-    "onCommand:chineseTranslation.simplifiedToHongKong",
-    "onCommand:chineseTranslation.simplifiedToTraditional",
-    "onCommand:chineseTranslation.simplifiedToTaiwan",
-    "onCommand:chineseTranslation.simplifiedToTaiwanWithPhrases",
-    "onCommand:chineseTranslation.traditionalToHongKong",
-    "onCommand:chineseTranslation.traditionalToSimplified",
-    "onCommand:chineseTranslation.traditionalToTaiwan",
-    "onCommand:chineseTranslation.taiwanToSimplified",
-    "onCommand:chineseTranslation.taiwanToSimplifiedWithPhrases"
-  ],
-  "main": "./extension",
-  "contributes": {
-    "commands": [
-      {
-        "command": "chineseTranslation.hongKongToSimplified",
-        "title": "Chinese Translation: Translate Hong Kong to Simplified Chinese"
-      },
-      {
-        "command": "chineseTranslation.simplifiedToHongKong",
-        "title": "Chinese Translation: Translate Simplified Chinese to Hong Kong"
-      },
-      {
-        "command": "chineseTranslation.simplifiedToTraditional",
-        "title": "Chinese Translation: Translate Simplified Chinese to Traditional Chinese"
-      },
-      {
-        "command": "chineseTranslation.simplifiedToTaiwan",
-        "title": "Chinese Translation: Translate Simplified Chinese to Taiwan"
-      },
-      {
-        "command": "chineseTranslation.simplifiedToTaiwanWithPhrases",
-        "title": "Chinese Translation: Translate Simplified Chinese to Taiwan with phrases"
-      },
-      {
-        "command": "chineseTranslation.traditionalToHongKong",
-        "title": "Chinese Translation: Translate Traditional Chinese to Hong Kong"
-      },
-      {
-        "command": "chineseTranslation.traditionalToSimplified",
-        "title": "Chinese Translation: Translate Traditional Chinese to Simplified Chinese"
-      },
-      {
-        "command": "chineseTranslation.traditionalToTaiwan",
-        "title": "Chinese Translation: Translate Traditional Chinese to Taiwan"
-      },
-      {
-        "command": "chineseTranslation.taiwanToSimplified",
-        "title": "Chinese Translation: Translate Taiwan to Simplified Chinese"
-      },
-      {
-        "command": "chineseTranslation.taiwanToSimplifiedWithPhrases",
-        "title": "Chinese Translation: Translate Taiwan to Simplified Chinese with phrases"
-      }
-    ]
-  },
-  "devDependencies": {
-    "vscode": "0.11.x"
-  },
-  "dependencies": {
-    "node-opencc": "0.0.x"
-  }
+	"name": "vscode-chinese-translation",
+	"displayName": "Chinese Translation",
+	"description": "Translates between Traditional and Simplified Chinese",
+	"version": "0.0.1",
+	"publisher": "Compulim",
+	"engines": {
+	  "vscode": "^0.10.1"
+	},
+	"icon": "icon.png",
+	"galleryBanner.color": "#0D5CAB",
+	"repository": {
+	  "type": "git",
+	  "url": "https://github.com/compulim/vscode-chinese-translation.git"
+	},
+	"bugs": "https://github.com/compulim/vscode-chinese-translation/issues/",
+	"homepage": "https://github.com/compulim/vscode-chinese-translation/blob/master/README.md",
+	"license": "MIT",
+	"keywords": [
+		"chinese",
+		"opencc",
+		"translation",
+		"traditional",
+		"simplified",
+		"taiwan",
+		"hong kong",
+		"gb2312",
+		"big5",
+		"hkscs"
+	],
+	"categories": [
+		"Other"
+	  ],
+	"activationEvents": [
+		"onCommand:chineseTranslation.hongKongToSimplified",
+		"onCommand:chineseTranslation.simplifiedToHongKong",
+		"onCommand:chineseTranslation.simplifiedToTraditional",
+		"onCommand:chineseTranslation.simplifiedToTaiwan",
+		"onCommand:chineseTranslation.simplifiedToTaiwanWithPhrases",
+		"onCommand:chineseTranslation.traditionalToHongKong",
+		"onCommand:chineseTranslation.traditionalToSimplified",
+		"onCommand:chineseTranslation.traditionalToTaiwan",
+		"onCommand:chineseTranslation.taiwanToSimplified",
+		"onCommand:chineseTranslation.taiwanToSimplifiedWithPhrases"
+	],
+	"main": "./extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "chineseTranslation.hongKongToSimplified",
+				"title": "Chinese Translation: Translate Hong Kong to Simplified Chinese"
+			},
+			{
+				"command": "chineseTranslation.simplifiedToHongKong",
+				"title": "Chinese Translation: Translate Simplified Chinese to Hong Kong"
+			},
+			{
+				"command": "chineseTranslation.simplifiedToTraditional",
+				"title": "Chinese Translation: Translate Simplified Chinese to Traditional Chinese"
+			},
+			{
+				"command": "chineseTranslation.simplifiedToTaiwan",
+				"title": "Chinese Translation: Translate Simplified Chinese to Taiwan"
+			},
+			{
+				"command": "chineseTranslation.simplifiedToTaiwanWithPhrases",
+				"title": "Chinese Translation: Translate Simplified Chinese to Taiwan with phrases"
+			},
+			{
+				"command": "chineseTranslation.traditionalToHongKong",
+				"title": "Chinese Translation: Translate Traditional Chinese to Hong Kong"
+			},
+			{
+				"command": "chineseTranslation.traditionalToSimplified",
+				"title": "Chinese Translation: Translate Traditional Chinese to Simplified Chinese"
+			},
+			{
+				"command": "chineseTranslation.traditionalToTaiwan",
+				"title": "Chinese Translation: Translate Traditional Chinese to Taiwan"
+			},
+			{
+				"command": "chineseTranslation.taiwanToSimplified",
+				"title": "Chinese Translation: Translate Taiwan to Simplified Chinese"
+			},
+			{
+				"command": "chineseTranslation.taiwanToSimplifiedWithPhrases",
+				"title": "Chinese Translation: Translate Taiwan to Simplified Chinese with phrases"
+			}
+		]
+	},
+	"scripts": {
+		"postinstall": "node ./node_modules/vscode/bin/install",
+		"test": "node ./node_modules/vscode/bin/test"
+	},
+	"devDependencies": {
+		"@types/mocha": "^2.2.42",
+		"@types/node": "^10.12.21",
+		"eslint": "^5.13.0",
+		"node-opencc": "^2.0.1",
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28"
+	}
 }
